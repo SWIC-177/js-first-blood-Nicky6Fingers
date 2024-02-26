@@ -5,3 +5,6 @@ function greet(name){
 
 //Call Function
  var greeting = greet("Nick")
+
+//Display
+console.log(greeting)
