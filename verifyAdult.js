@@ -1,6 +1,6 @@
 const person = {
     name: "Nick",
-    age: 33,
+    age: 16,
   };
   
   function verifyAdulthood(personName, personAge) {
