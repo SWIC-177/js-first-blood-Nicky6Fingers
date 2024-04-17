@@ -4,11 +4,11 @@ const person = {
   };
   
   function verifyAdulthood(personName, personAge) {
-    if (personAge >= 18) console.log( `Welcome, ${personName}!`);
-  else{
-
-    console.log( `You are not old enough to enter, ${personName}.`);
-      }
+    if (personAge >= 18) {
+      return `Welcome, ${personName}!`;
+    } else {
+      return `You are not old enough to enter, ${personName}.`;
+    }
   }
   
   const adultMessage = verifyAdulthood(person.name, person.age);
