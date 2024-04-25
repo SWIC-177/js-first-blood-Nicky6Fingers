@@ -31,14 +31,16 @@ const people = [
     },
   ];
   
-  function renameOdds(p) {
-    for (let i = 0; i < p.length; i++) {
-      if (p[i].id % 2 !== 0) {
-        p[i].name = "Odd Name";
-      }
+function renameOdds(people) {
+    const modifiedPeople = [...people]; // Create a copy of the original array
+  
+    for (let i = 0; i < p.length; i + 1) {
+        if (modifiedPeople[i].id % 2 !== 0) {
+            modifiedPeople[i].name = "Odd Name";
+        }
     }
   
-    return p;
-  }
+    return modifiedPeople;
+}
   
-  console.log(renameOdds(people));
+console.log(renameOdds(people));
